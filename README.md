@@ -1,16 +1,16 @@
-# 📊 Central Limit Theorem — Simulation Study
+#  Central Limit Theorem — Simulation Study
 
 A hands-on statistical simulation project exploring the **Central Limit Theorem (CLT)** through Python, using both normal and exponential population distributions.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project investigates how the distribution of **sample means** behaves as sample size grows, using Monte Carlo-style simulations. By drawing thousands of samples from two different population types, we empirically verify the core predictions of the CLT and compare observed results against theoretical values.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Generate and visualize two distinct populations: **Normal** and **Exponential**
 - Simulate **1,000 samples** for each of five sample sizes: `n = 16, 25, 36, 100, 400`
@@ -20,7 +20,7 @@ This project investigates how the distribution of **sample means** behaves as sa
 
 ---
 
-## 🧪 Key Concepts
+##  Key Concepts
 
 | Concept | Description |
 |---|---|
@@ -31,7 +31,7 @@ This project investigates how the distribution of **sample means** behaves as sa
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3**
 - `numpy` — numerical computations
@@ -42,7 +42,7 @@ This project investigates how the distribution of **sample means** behaves as sa
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 trabalho_t2.ipynb       # Main Jupyter Notebook with all simulations and analyses
@@ -51,7 +51,7 @@ README.md               # Project documentation
 
 ---
 
-## 📈 Results Summary
+##  Results Summary
 
 ### Normal Population
 - Sample means followed a normal distribution **at all values of `n`**, consistent with the population already being normally distributed
@@ -65,7 +65,7 @@ README.md               # Project documentation
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 The notebook generates side-by-side histogram panels for each sample size, with **red theoretical normal curves** overlaid:
 
@@ -78,7 +78,7 @@ Each panel also compares observed vs. theoretical SEM in tabular format.
 
 ---
 
-## 🔍 Conclusions
+##  Conclusions
 
 1. **Shape matters at small `n`**: Normal populations converge to a normal sampling distribution quickly; skewed populations (like exponential) need larger samples
 2. **The CLT holds empirically**: Observed sample mean distributions matched theoretical predictions closely across both populations
@@ -86,7 +86,7 @@ Each panel also compares observed vs. theoretical SEM in tabular format.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone this repository
 2. Install dependencies:
